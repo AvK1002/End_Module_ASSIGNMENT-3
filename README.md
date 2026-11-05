@@ -80,11 +80,6 @@ Module3-Playwright-Assignment/
 │   └── bankManager.spec.js
 │
 ├── evidence/
-│   ├── Q1_Order_Confirmation.png
-│   ├── Q2_Customer_Created.png
-│   ├── Q2_Account_Created.png
-│   ├── Q2_Customer_Search.png
-│   ├── Q2_Customer_Deleted.png
 │   └── Test_Execution.png
 │
 ├── playwright-report/
