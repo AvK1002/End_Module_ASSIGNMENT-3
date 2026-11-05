@@ -5,7 +5,7 @@ test('Bank Manager - Add Customer, Open Account, Search and Delete', async ({ pa
 
     // Test data
     const firstName = 'John';
-    const lastName = `Mathew_${Date.now()}`; // Unique last name to avoid conflicts
+    const lastName = `Mathew_${Date.now()}`;
     const postCode = '682001';
     const customerFullName = `${firstName} ${lastName}`;
 
@@ -35,7 +35,7 @@ page.once('dialog', async dialog => {
 });
 
 await page.getByRole('button', { name: 'Add Customer' }).last().click();
-await page.waitForTimeout(2000); // Wait for 1 second to ensure the alert is handled
+await page.waitForTimeout(2000); 
 
     // 4. Open Bank Account
     await page.getByRole('button', { name: 'Open Account' }).click();
